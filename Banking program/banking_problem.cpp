@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include "bank_functions.h"
+extern int balance;
 
 
 int main()
@@ -8,10 +9,9 @@ int main()
     using std::cin;
     using std::endl;
 
-    int balance = 60000;
     int* bal_address = &balance;
     int choice;
-    int amount;
+    register int amount;
     bool use_state = true;
 
     cout << "Welcome to the bank.\n";
