@@ -1,4 +1,5 @@
 #include <iostream>
+int balance = 60000;
 
 std::string withdrawMoney(int, int*);
 std::string depositMoney(int, int*);
