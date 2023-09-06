@@ -76,7 +76,7 @@ int main()
         }
         else
         {
-            std::cout << "Please enter a number between 1 and 4." << std::endl;
+            std::cout << "Please enter a number between 1 and 6." << std::endl;
         }
     }
     return 0;
